@@ -37,22 +37,22 @@
       <div id="main">
         <form action="/sheep-api/" class="mx-auto" method="POST">
           <div class="input-group">
-            <input type="url" autocomplete="off" class="form-control form-control-lg" placeholder="Type URL here..." id="url">
+            <input type="url" autocomplete="off" class="form-control" placeholder="Type URL here..." id="url">
           </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="tos">
-            <label class="form-check-label" for="tos">I have read the <span>Terms and Services</span>.</label>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="tos">
+            <label class="custom-control-label" for="tos"><span>I have read the </span><span class="tos">Terms and Services</span><span>.</span></label>
           </div>
           <span class="btn-wrap">
             <button id="check" disabled class="btn btn-danger"><strong>Check</strong></button>
           </span>
         </form>
       </div>
-      <div>
-        <a class="small no" href="https://www.whatisagoodconversionrate.com/nothanks/">
+      <p class="no">
+        <a class="small" href="https://www.whatisagoodconversionrate.com/nothanks/">
           <span>No thanks. I don't believe a generic, URL-specific conversion rate (that could be universally considered "good") even exists.</span>
         </a>
-      </div>
+      </p>
 
     </div>
 
